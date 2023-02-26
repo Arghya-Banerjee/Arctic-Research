@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arctic Research</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
+	<link rel="icon" type="image/x-icon" href="{{ url_for('static',filename='favicon/favicon.ico') }}">
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="#">Home</a>
+			<a href="#">GitHub</a>
+			<a href="#">About</a>
+		</nav>
+	</header>
+
+	<div class="title">
+		<h1>Welcome to Arctic Research</h1>
+	</div>
+
+    <div class="sub-title">
+		<h1>Sea Ice Extent Distribution</h1>
+	</div>
+
+	<div class="text">
+		<p>Sea ice extent refers to the total area of the ocean covered by ice, and it is an important indicator of the health of the Arctic and Antarctic regions. According to satellite observations, the sea ice extent has been decreasing since 1978, and this trend has continued up to the present day.</p>
+		<p>In particular, 2020 saw the second-lowest minimum extent of sea ice in the Arctic, with only 3.74 million square kilometers of ice cover at its minimum point. This is well below the long-term average for this time of year, and it suggests that the Arctic sea ice is continuing to shrink at an alarming rate.</p>
+		<p>The decline in sea ice extent is primarily driven by the effects of climate change, which is causing global temperatures to rise and leading to changes in the Earth's climate system. As temperatures increase, the ice melts, and this has important consequences for the environment, including rising sea levels and changes in ocean currents and weather patterns.</p>
+	</div>
+
+	<div class="image-section">
+		<img class="image" src="../static/img/NSIDC_Yearly_Sea_Extent_Data_Chart_1978_2022.png" alt="Placeholder Image">
+	</div>
+
+	<div class="text">
+        <p>Overall, the decreasing sea ice extent is a clear sign of the impact that humans are having on the Earth's climate, and it underscores the urgent need for action to mitigate the effects of climate change and protect the planet's delicate ecosystems.</p>
+		<span class="text">Data Source: </span><a target="_blank" href="https://nsidc.org/data/seaice_index/data-and-image-archive">https://nsidc.org/data/seaice_index/data-and-image-archive</a>
+		<p>Last Updated: 2023-02-17</p>
+	</div>
+
+	<footer style="background-color: #333; color: #fff; text-align: center; margin-top: 50px; padding-bottom: 15px; padding-top: 10px;">
+		<nav style="display: flex; justify-content: center;">
+		  <ul style="list-style: none; padding: 0;">
+			<li style="display: inline-block; margin: 0 10px;"><a href="/about">About</a></li>
+			<li style="display: inline-block; margin: 0 10px;"><a href="/">Home</a></li>
+			<li style="display: inline-block; margin: 0 10px;"><a href="https://github.com/your-username">GitHub</a></li>
+		  </ul>
+		</nav>
+		<p>&copy; 2023 Arctic Research</p>
+	  </footer>
+</body>
+</html>
