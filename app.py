@@ -7,7 +7,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-MODEL_PATH ='../models/arctic_animal_classification.h5'
+MODEL_PATH ='./models/arctic_animal_classification.h5'
 
 model = load_model(MODEL_PATH)
 
