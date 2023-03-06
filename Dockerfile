@@ -1,6 +1,11 @@
-FROM python:3-alpine3.7
-WORKDIR /app
-COPY . /app
+FROM python:3.9-slim-buster
+
+WORKDIR /arcticResearch
+
+COPY . /arcticResearch
+
 RUN pip install -r requirements.txt
-EXPOSE 3000
-CMD python ./app/app.py 
+
+ENTRYPOINT [ "python" ]
+
+CMD [ "app.py" ]

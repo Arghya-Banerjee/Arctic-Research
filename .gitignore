@@ -2,3 +2,4 @@ Dataset
 Raw_Dataset
 Notebook/.ipynb_checkpoints
 models
+__pycache__
